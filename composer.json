@@ -21,7 +21,7 @@
         "source": "https://github.com/mickmelon/flarum-ext-coloured-usernames"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.15"
+        "flarum/core": "^1.0"
     },
     "extra": {
         "flarum-extension": {
