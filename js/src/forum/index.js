@@ -14,9 +14,11 @@ app.initializers.add('mickmelon-coloured-usernames', () => {
 
         // Find the first group that has a color
         // We don't read badges because we would need to support every badge component and its attrs
-        const firstColoredGroup = user.groups().find(group => {
-          return group.color();
-        });
+//         const firstColoredGroup = user.groups().find(group => {
+//           return group.color();
+//         });
+        
+        debugger;
 
         // If there are no color groups, skip
         if (!firstColoredGroup) {
